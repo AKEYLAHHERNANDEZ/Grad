@@ -1,5 +1,6 @@
-Replace this note with two image files:
+Replace this note with these image files:
 - sister.jpg (your sister's photo)
 - mom.jpg (your mom's photo)
+- stepdad.jpg (your stepdad's photo)
 
 Keep these exact filenames so the website can find them.

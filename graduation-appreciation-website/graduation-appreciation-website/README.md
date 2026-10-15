@@ -1,12 +1,12 @@
 # A Little Graduation Surprise ♡
 
-A mobile-friendly, two-letter graduation appreciation website for your mom and sister. It is a static site, so it can be hosted for free on GitHub Pages.
+A mobile-friendly appreciation website for your mom, sister, and stepdad. It is a static site, so it can be hosted for free on GitHub Pages.
 
 ## What's included
 
-- One shared landing page with a choice for Mom or Sister
+- One shared landing page with a choice for Mom, Sister, or Stepdad
 - Separate personalized appreciation letters
-- Photo slots for `images/mom.jpg` and `images/sister.jpg`
+- Photo slots for `images/mom.jpg`, `images/sister.jpg`, and `images/stepdad.jpg`
 - Responsive layout for phones and desktops
 - No build tools or package installation required
 
@@ -16,6 +16,7 @@ Inside this project folder, open the `images` folder and replace the placeholder
 
 - Use a photo of your sister named exactly `sister.jpg`
 - Use a photo of your mom named exactly `mom.jpg`
+- Use a photo of your stepdad named exactly `stepdad.jpg`
 
 JPG photos are recommended. You can crop them first so the people are centered. If your photo files are PNG, either convert them to JPG or update the matching filenames in `index.html` and `script.js`.
 
@@ -53,7 +54,7 @@ After the website is published:
 5. Download the QR code as a high-quality PNG or SVG.
 6. Scan it with your phone before printing it on a card or placing it in a frame.
 
-The shared QR code opens the landing page. Your mom and sister can each tap their own card to read their personal letter.
+The shared QR code opens the landing page. Your family can each tap their own card to read a personal letter.
 
 ## 5. Updating the site later
 

@@ -22,6 +22,17 @@ const letters = {
       "As you move forward into this new chapter, I wish you nothing but happiness, success, new opportunities, and the courage to keep pursuing whatever your heart desires. May this be one of many beautiful accomplishments in your life, because you deserve every bit of success and joy that comes your way.",
       "Congratulations once again, Mom! I love you so much, and I am beyond proud of you. ♡"
     ]
+  },
+  stepdad: {
+    emoji: "💛✨",
+    kicker: "For my wonderful stepdad",
+    title: "To my amazing stepdad",
+    photo: "images/stepdad.jpg",
+    paragraphs: [
+      "I want you to know how grateful I am to have you in my life. Thank you for the care, kindness, and support you've given me. It means more than I can always put into words.",
+      "Thank you for showing up, encouraging me, and being someone I can count on. The little things you do and the love you share make a real difference, and I never take that for granted.",
+      "I'm lucky to have you as part of my family. I hope you know how much I appreciate you and how much you mean to me. ♡"
+    ]
   }
 };
 
@@ -50,7 +61,7 @@ function openLetter(person) {
   });
 
   letterPhoto.src = letter.photo;
-  letterPhoto.alt = person === "mom" ? "A photo of Mom" : "A photo of my sister";
+  letterPhoto.alt = `A photo of ${person === "mom" ? "Mom" : person === "stepdad" ? "my stepdad" : "my sister"}`;
   letterPhotoWrap.classList.remove("visible");
   letterPhoto.onload = () => letterPhotoWrap.classList.add("visible");
   letterPhoto.onerror = () => letterPhotoWrap.classList.remove("visible");
